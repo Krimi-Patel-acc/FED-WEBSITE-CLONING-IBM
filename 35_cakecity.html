@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake City</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(3, 66, 75);
+        }
+
+        sup {
+            font-size: small;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .logo img {
+            margin-left: 1200px;
+            margin-top: 1px;
+        }
+
+        #head1 {
+            font-size: x-large;
+            margin: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #box1 {
+            height: 50px;
+            font-size: large;
+            background-color: rgb(84, 196, 84);
+            color: white;
+            border-radius: 25px;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        .common {
+            margin-top: 15px;
+            margin-left: 200px;
+        }
+
+        .common:hover {
+            border-bottom: 2px solid crimson;
+            color: crimson;
+        }
+
+        .price {
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+
+        .price:hover {
+            border-bottom: 2px solid crimson;
+            color: crimson;
+        }
+
+        #p1 {
+            background-color: rgb(170, 168, 168);
+            /* width: 1500px; */
+            height: 50px;
+            font-size: large;
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+            /* margin-left: 20px; */
+            padding-left: 10px;
+            border-radius: 20px;
+        }
+
+        #gallery {
+            /* padding-top: 20px;
+            padding-left: 95px; */
+        }
+
+        #gallery .gallery-item a img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            opacity: 0.7;
+        }
+
+        .g-section {
+            display: flex;
+        }
+
+        .container {
+            max-width: 950px;
+            /* padding: 40px 0 0 40px; */
+        }
+
+        .g-section .gallery-item {
+            margin: 10px 8px;
+        }
+
+        #gallery .gallery-item a img:hover {
+            opacity: 1;
+        }
+        a{
+            text-decoration: none;
+            color: #fff ;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div id="head1" class="logo">
+            <h1>Cake City <sup>The Live Cake Shop</sup></h1>
+            <img src="./images/WhatsApp Image 2022-02-11 at 9.57.35 PM.jpeg" alt="cake city" height="100px"
+                width="100px">
+        </div>
+    </section>
+    <section>
+        <div id="box1">
+            <nav>
+                <ul style="list-style-type: none;">
+                    <li class="common">Home</li>
+                    <li class="common"><select name="state" id="" style="border: none; width: 200px; background-color:rgb(84, 196, 84); font-size: large; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #fff;">
+                        <optgroup label="South India">
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Kerala">Kerala</option>
+                        </optgroup>
+                        <optgroup label="North India">
+                            <option value="Delhi">Delhi</option>
+                            <option value="Gujarat" selected>Birthday</option>
+                            <option value="Madhya Pradesh" disabled>Madhya Pradesh</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Maharastra">Maharastra</option>
+                        </optgroup>
+                    </select></li>
+                    <li class="common">Wedding</li>
+                    <li class="common">Anniversary</li>
+                    <a href="./36_About.html"><li class="common">About Us</li></a>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <ul style="list-style-type: none;">
+            <li class="price">Short By:</li>
+            <li class="price">Recommanded</li>
+            <li class="price">New</li>
+            <li class="price">Price:High To Low</li>
+            <li class="price">Price:Low To High</li>
+        </ul>
+    </section>
+    <section>
+        <div id="p1">
+            <p>Cakes By Flavour</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div id="gallery">
+                <div class="g-section">
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-1.jpg" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-2.jfif" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-3.jfif" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-4.jfif" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-5.jfif" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-6.jfif" alt=""></a>
+                    </div>
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-7.jfif" alt=""></a>
+                    </div>
+                </div>
+                <div class="g-section">
+                    <div class="gallery-item">
+                        <a href=""><img src="./images/img-8.jpg" alt=""></a>
+                    </div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-9.jfif" alt=""></a></div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-10.jfif" alt=""></a></div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-11.jfif" alt=""></a></div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-12.jpg" alt=""></a></div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-13.jpeg" alt=""></a></div>
+                    <div class="gallery-item"><a href=""><img src="./images/img-14.jpg" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

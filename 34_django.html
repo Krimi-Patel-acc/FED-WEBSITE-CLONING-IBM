@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>django project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            /* font-family: 'Jacques Francois Shadow', cursive; */
+        }
+        .box1{
+            font-size:150%;
+            background-color:grey;
+            display: flex;
+            align-items: flex-end;
+            border-radius: 20px;
+        }
+        h2{
+            /* font-family:'Dancing Script', cursive; */
+        }
+        #box2{
+            margin:30px;
+            padding-left: 30px;
+            font-size: larger;
+            width:200px;
+            border-radius: 10px;
+            /* background-color: grey; */
+
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+        }
+        #about{
+            margin-left:1100px;
+        }
+        #box3{
+            margin-left: 30px;
+            border-radius: 10px;
+            width: 350px;
+            /* background-color: grey; */
+        }
+        #t1{
+            font-size: large;
+        }
+        /* #back{
+            background-image: url("2015_dodge_challenger_cars.jpg");
+            background-size:contain;
+            background-repeat: no-repeat;
+        } */
+    </style>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Jacques+Francois+Shadow&family=Orbitron&family=Shadows+Into+Light&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body background="./2015_dodge_challenger_cars.jpg">
+  <div>
+    <div class="box1">
+        <h1>Cake City</h1>
+        <div id="about"><a href="#">About Us</a></div>
+    </div> 
+    
+    <div id="box2">
+            <ul style="list-style-type:circle;">
+                <li>Live Cake</li>
+                <li>Pastries</li>
+                <li>Choco Lava</li>
+                <li>Puff</li>
+            </ul>
+    </div>
+    <div id="box3">
+        <form action="" method="get">
+            <fieldset style="width: 300px;"><legend><h2>Feedback</h2></legend>
+                <table id="t1">
+                    <tr>
+                        <td>
+                            <label for="fname">First name:</label>
+                        </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="lname">Last name:</label>
+                        </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Email id:</label>
+                        </td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Phone Number</label>
+                        </td>
+                        <td><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+  </div>
+  <marquee behavior="inline" direction="left"><h1 color="crimson">Welcome to the Cake City Dungri</h1></marquee>
+</body>
+</html>

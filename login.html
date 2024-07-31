@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+            max-width: 500px;
+            text-align: center;
+            font-family: 'Syne Mono', monospace;
+        }
+
+        body {
+            background-color: rgb(3, 66, 75);
+        }
+
+        .box1 {
+            color: white;
+            margin-top: 150px;
+            margin-bottom: 60px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .inputbox {
+            background-color: rgb(49, 143, 138);
+        }
+
+        #box {
+            margin-left: 250px;
+            margin-top: 10px;
+            width: fit-content;
+        }
+
+        #click {
+            height: 40px;
+            width: 320px;
+            border-radius: 10px;
+        }
+
+        .log {
+            color: white;
+            font-size: medium;
+            margin-top: 30px;
+            background-color: rgb(97, 209, 97);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #pass {
+            margin-top: 20px;
+        }
+
+        ::placeholder {
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #welcome {
+            font-size: xx-large;
+            color: rgb(97, 209, 97);
+        }
+
+        .sign {
+            background-color: rgb(97, 209, 97);
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 5px;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <i class="fas fa-users"></i>
+    <section>
+        <div class="container">
+            <div class="box1">
+                <div id="name">
+                    <h1>Sign in</h1>
+                </div>
+                <!-- <div id="welcome">welcome to the cake city</div> -->
+            </div>
+        </div>
+    </section>
+    <section>
+        <section>
+            <div class="container">
+                <div><input type="text" id="click" class="inputbox" placeholder="Username"></div>
+                <div id="box">create new account</div>
+                <div id="pass"><input type="password" id="click" class="inputbox" placeholder="Password"></div>
+                <div id="box">forgot password ?</div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <a href="./35_cakecity.html"><button id="click" class="log">Log in</button></a>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <a href="./signup.html"><button id="click" class="sign">Sign up</button></a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
